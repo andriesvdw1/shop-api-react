@@ -10,11 +10,14 @@ function ProductList() {
         fetch(url)
         .then(response => response.json())
         .then(data => setProducts(data));
-    }, []);
+    }, [url]);
     
 
   return (    
     <section className='product-list'>
+        <button onClick={() => setUrl("http://localhost:8000/products")}>All</button>
+        <button onClick={() => setUrl("http://localhost:8000/products?in_stock=true")}>In Stock Only</button>
+        <button onClick={() => setUrl("http://localhost:8000/products?in_stock=false")}>Out of Stock Only</button>
         { products.map((product) => (
             <div className="card" key={product.id}>
                 <p className='id' style={{backgroundColor:"blue", color:"white", width:"45px"}}>{product.id}</p>
