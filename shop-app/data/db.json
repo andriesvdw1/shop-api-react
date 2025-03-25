@@ -1,0 +1,21 @@
+{
+    "products": [{
+        "id": 10001,
+        "name": "Basics to Advanced in React",
+        "price": 299,
+        "in_stock": true
+    },
+    {
+        "id": 10002,
+        "name": "Next.js for beginners",
+        "price": 450,
+        "in_stock": false
+    },
+    {
+        "id": 10003,
+        "name": "UI/UX Skills for the cautious programmer",
+        "price": 600,
+        "in_stock": true
+    }]
+    
+}
