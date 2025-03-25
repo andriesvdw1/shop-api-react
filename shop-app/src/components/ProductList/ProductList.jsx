@@ -1,5 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
+import '/src/components/ProductList/ProductList.css';
+
 function ProductList() {
     const [products, setProducts] = useState([]);
     const [url, setUrl] = useState("http://localhost:8000/products");

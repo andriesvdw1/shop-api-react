@@ -1,0 +1,7 @@
+.product-list{
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto 0;
+    grid-area: pl;
+  }
