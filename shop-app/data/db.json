@@ -16,6 +16,20 @@
         "name": "UI/UX Skills for the cautious programmer",
         "price": 600,
         "in_stock": true
+    }
+    ,
+    {
+        "id": 10004,
+        "name": "JSON server with react techniques",
+        "price": 200,
+        "in_stock": false
+    }
+    ,
+    {
+        "id": 10005,
+        "name": "CSS styling for websites",
+        "price": 500,
+        "in_stock": true
     }]
     
 }

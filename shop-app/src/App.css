@@ -1,6 +1,8 @@
 .instock{
   background-color: greenyellow;
+  color:black;
 }
 .nostock{
   background-color: red;
+  color:white;
 }
