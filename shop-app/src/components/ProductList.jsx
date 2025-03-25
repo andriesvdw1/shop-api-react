@@ -2,16 +2,17 @@ import React from 'react'
 import { useEffect, useState } from 'react';
 function ProductList() {
     const [products, setProducts] = useState([]);
+    const [url, setUrl] = useState("http://localhost:8000/products");
     
     useEffect(() => {
-        fetch("http://localhost:8000/products")
+        fetch(url)
         .then(response => response.json())
         .then(data => setProducts(data));
     }, []);
     
 
   return (    
-    <section>
+    <section className='product-list'>
         { products.map((product) => (
             <div className="card" key={product.id}>
                 <p className='id' style={{backgroundColor:"blue", color:"white", width:"45px"}}>{product.id}</p>

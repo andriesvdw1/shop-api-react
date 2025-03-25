@@ -6,3 +6,24 @@
   background-color: red;
   color:white;
 }
+
+.product-list{
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 20px;
+  margin: auto 0;
+  grid-area: pl;
+  
+  
+}
+
+.App{
+  display: grid;
+  grid-template-areas: ". pl .";
+}
+
+.card{
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 20px;
+}
